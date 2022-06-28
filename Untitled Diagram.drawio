@@ -1,14 +1,29 @@
-<mxfile host="app.diagrams.net" modified="2022-06-28T13:06:37.119Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="gpBLbynYjyQeykIhq3qW" version="20.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-28T13:09:44.619Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="XayIHCa78DP7klPHUYQy" version="20.0.3" type="github">
   <diagram id="2BiCSxZXx3wYr7SwjjUB" name="第 1 页">
     <mxGraphModel dx="1186" dy="678" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="nIXb4At4_kp5Q2DNmKUw-1" value="cz-apiserver" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="130" y="140" width="120" height="60" as="geometry" />
+        <mxCell id="HiWNv9KhUgKpVo7JpGJ2-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nIXb4At4_kp5Q2DNmKUw-1" target="HiWNv9KhUgKpVo7JpGJ2-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nIXb4At4_kp5Q2DNmKUw-2" value="cz-a" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="390" y="140" width="120" height="60" as="geometry" />
+        <mxCell id="nIXb4At4_kp5Q2DNmKUw-1" value="cz-apiserver" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="290" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HiWNv9KhUgKpVo7JpGJ2-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nIXb4At4_kp5Q2DNmKUw-2" target="nIXb4At4_kp5Q2DNmKUw-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nIXb4At4_kp5Q2DNmKUw-2" value="czctl" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="270" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HiWNv9KhUgKpVo7JpGJ2-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HiWNv9KhUgKpVo7JpGJ2-1" target="nIXb4At4_kp5Q2DNmKUw-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HiWNv9KhUgKpVo7JpGJ2-1" value="cz-webconsole" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HiWNv9KhUgKpVo7JpGJ2-3" value="mysql" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="400" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
